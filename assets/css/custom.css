@@ -1,0 +1,61 @@
+/**
+ * place custom style in this file
+ * add !important to the end if no effect
+ * e.g. color: #fff !important;
+ * --------------------------------------------------
+ *
+ */
+
+.navbar-brand-media-img {
+    height: 35px;
+}
+
+@media (min-width: 992px) {
+    .navbar-brand-media-img {
+        height: 75px;
+    }
+}
+
+
+.bg-fade-in {
+    -webkit-animation-duration: 12s;
+    -o-animation-duration: 12s;
+    animation-duration: 12s;
+}
+
+@-webkit-keyframes bg-fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: .8;
+    }
+}
+
+@-o-keyframes bg-fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: .8;
+    }
+}
+
+@keyframes bg-fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: .8;
+    }
+}
+
+.bg-fade-in {
+    -webkit-animation-name: bg-fade-in;
+    -o-animation-name: bg-fade-in;
+    animation-name: bg-fade-in;
+}
+
+.section-title-big {
+    font-size: 38px;
+}
